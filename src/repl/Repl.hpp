@@ -6,8 +6,16 @@
 #define QT_GENERIC_REPL_REPL_H
 
 
-class Repl {
+#include "InputHandlerInterface.hpp"
 
+class Repl {
+public:
+    explicit Repl(InputHandlerInterface *pHandler);
+
+    InputHandlerInterface *getInputHandler();
+
+private:
+    InputHandlerInterface *pHandler;
 };
 
 

@@ -3,3 +3,11 @@
 //
 
 #include "Repl.hpp"
+
+Repl::Repl(InputHandlerInterface *pHandler) {
+    this->pHandler = pHandler;
+}
+
+InputHandlerInterface *Repl::getInputHandler() {
+    return pHandler;
+}
