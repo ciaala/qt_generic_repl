@@ -3,4 +3,5 @@
 //
 
 #include "InputHandlerInterface.hpp"
+
 InputValidation InputValidation::OK;
