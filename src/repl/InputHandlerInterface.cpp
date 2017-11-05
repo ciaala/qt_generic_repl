@@ -4,4 +4,4 @@
 
 #include "InputHandlerInterface.hpp"
 
-InputValidation InputValidation::OK;
+const InputValidation InputValidation::OK;
